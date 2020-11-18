@@ -1,22 +1,22 @@
 export const assets = 'https://gw.alipayobjects.com/os/s/prod/antv/assets';
-const base = 'https://antv.alipay.com/';
+// const base = 'https://antv.alipay.com/';
 export const page1 = [
   {
-    img: `https://res.cloudinary.com/dukeaml-com/image/upload/v1605683673/%CE%B7_wufobp.svg`,
-    href: `https://trade.eighthfund.com`,
+    img: 'https://res.cloudinary.com/dukeaml-com/image/upload/v1605683673/%CE%B7_wufobp.svg',
+    href: 'https://trade.eighthfund.com',
     title: 'Eighth Trading',
     description: 'Explore, Test, Deploy, and Invest with Algorithmic Trading Bots',
   },
   {
-    img: `https://res.cloudinary.com/dukeaml-com/image/upload/v1605670846/logo_4_Traced_w2ncul.svg`,
+    img: 'https://res.cloudinary.com/dukeaml-com/image/upload/v1605670846/logo_4_Traced_w2ncul.svg',
     title: 'Spectre',
-    href: `https://spectre.eighthfund.com`,
+    href: 'https://spectre.eighthfund.com',
     description: 'Save and earn monthly rewards, with a rate that\'s nearly 100x the national average',
   },
   {
     img: `${assets}/image/icon/f2-d360c.svg`,
     title: 'JOSH',
-    href: `https://josh.eighthfund.com`,
+    href: 'https://josh.eighthfund.com',
     description: 'Robinhood won\'t let you trade if you\'re under 18. Do it here.',
   },
 ];

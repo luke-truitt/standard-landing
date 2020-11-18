@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import QueueAnim from 'rc-queue-anim';
-import { Button } from 'antd';
+// import { Button } from 'antd';
 import { Element } from 'rc-scroll-anim';
 import BannerImage from './BannerImage';
 import { assets } from './data';
@@ -33,7 +33,10 @@ class Banner extends React.PureComponent {
           >
             <h1 key="h1">Eighth Fund</h1>
             <p className="main-info" key="p">
-              Eighth Fund is a Financial Services company built for Americans who were raised in the 90s and 2000s. We put emphasis on transparency, simplicity, and output. Right now we offer youth trading services, wealth management, and savings accounts.
+              Eighth Fund is a Financial Services company built for
+              Americans who were raised in the 90s and 2000s.
+              We put emphasis on transparency, simplicity, and output.
+              Right now we offer youth trading services, wealth management, and savings accounts.
             </p>
           </QueueAnim>
         </div>
