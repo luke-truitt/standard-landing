@@ -14,7 +14,7 @@ export const page1 = [
     description: 'Save and earn monthly rewards, with a rate that\'s nearly 100x the national average',
   },
   {
-    img: `${assets}/image/icon/f2-d360c.svg`,
+    img: 'https://res.cloudinary.com/dukeaml-com/image/upload/v1605744074/JOSH_ch9fzb.svg',
     title: 'JOSH',
     href: 'https://josh.eighthfund.com',
     description: 'Robinhood won\'t let you trade if you\'re under 18. Do it here.',
