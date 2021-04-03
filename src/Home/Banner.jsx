@@ -31,13 +31,8 @@ class Banner extends React.PureComponent {
             className={`${className}-text-wrapper`}
             delay={300}
           >
-            <h1 key="h1">Eighth Fund</h1>
-            <p className="main-info" key="p">
-              Eighth Fund is a Financial Services company built for
-              Americans who were raised in the 90s and 2000s.
-              We put emphasis on transparency, simplicity, and output.
-              Right now we offer youth trading services, wealth management, and savings accounts.
-            </p>
+            <img src="https://res.cloudinary.com/standard-crypto/image/upload/v1617483065/Vector_rpcjz8.svg" alt="Standard" />
+            <p className="main-info" key="p">Standard Crypto is developing decentralized financial services to give consumers the fastest, cheapest and most diverse suite of financial options in history.</p>
           </QueueAnim>
         </div>
       </Element>

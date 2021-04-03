@@ -6,7 +6,7 @@ export default function Header(props) {
     <header {...props}>
       <a className="logo-wrapper">
         <i className="logo" />
-        <span>Eighth Fund</span>
+        <span>Standard</span>
       </a>
     </header>
   );

@@ -2,22 +2,22 @@ export const assets = 'https://gw.alipayobjects.com/os/s/prod/antv/assets';
 // const base = 'https://antv.alipay.com/';
 export const page1 = [
   {
-    img: 'https://res.cloudinary.com/dukeaml-com/image/upload/v1605683673/%CE%B7_wufobp.svg',
-    href: 'https://trade.eighthfund.com',
-    title: 'Eighth Trading',
-    description: 'Explore, Test, Deploy, and Invest with Algorithmic Trading Bots',
+    img: 'https://res.cloudinary.com/standard-crypto/image/upload/v1617482597/LogoPurple-2_xo6jvx.svg',
+    href: 'https://wallet.fromstandard.com',
+    title: 'Standard Wallet',
+    description: 'The simplest intro to crypto.',
   },
   {
-    img: 'https://res.cloudinary.com/dukeaml-com/image/upload/v1605670846/logo_4_Traced_w2ncul.svg',
-    title: 'Spectre',
-    href: 'https://spectre.eighthfund.com',
-    description: 'Save and earn monthly rewards, with a rate that\'s nearly 100x the national average',
+    img: 'https://res.cloudinary.com/standard-crypto/image/upload/v1617483389/Group_154_oax1cz.svg',
+    title: 'Standard Cash',
+    href: 'https://cash.fromstandard.com',
+    description: 'Venmo, meet crypto. Earn interest on the money sitting in your payments account.',
   },
   {
-    img: 'https://res.cloudinary.com/dukeaml-com/image/upload/v1605744074/JOSH_ch9fzb.svg',
-    title: 'JOSH',
-    href: 'https://josh.eighthfund.com',
-    description: 'Robinhood won\'t let you trade if you\'re under 18. Do it here.',
+    img: 'https://res.cloudinary.com/standard-crypto/image/upload/v1617483391/image_16_Traced_pxlnjo.svg',
+    title: 'Standard Pool',
+    href: 'https://pool.fromstandard.com',
+    description: 'A lottery where you can only make money. Powered by Crypto.',
   },
 ];
 
