@@ -19,6 +19,12 @@ export const page1 = [
     href: 'https://pool.fromstandard.com',
     description: 'A lottery where you can only make money. Powered by Crypto.',
   },
+  {
+    img: 'https://res.cloudinary.com/standard-crypto/image/upload/v1617484011/Group_209_tvwdku.svg',
+    title: 'Standard Tax',
+    href: 'https://taxes.fromstandard.com',
+    description: 'Affordable and straightforward taxes. Sound ironic?',
+  },
 ];
 
 export const page3 = [
