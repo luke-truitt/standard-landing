@@ -16,7 +16,7 @@ export const page1 = [
   {
     img: 'https://res.cloudinary.com/standard-crypto/image/upload/v1617483391/image_16_Traced_pxlnjo.svg',
     title: 'Standard Pool',
-    href: 'https://pool.fromstandard.com',
+    href: 'https://lottery.fromstandard.com',
     description: 'A lottery where you can only make money. Powered by Crypto.',
   },
   {
