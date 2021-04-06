@@ -18,24 +18,39 @@ class Banner extends React.PureComponent {
   render() {
     const { className, isMobile, navToShadow } = this.props;
     return (
-      <Element component="section" className={`${className}-wrapper page`} onChange={navToShadow}>
-        <div className={className}>
-          <div className={`${className}-img-wrapper`}>
+      // <Element component="section" className={`${className}-wrapper page`} onChange={navToShadow}>
+      //   <div className={className}>
+      //     {/* <div className={`${className}-img-wrapper`}>
+      //       {isMobile ?
+      //         <img width="100%" src={`${assets}/image/home/intro-landscape-3a409.svg`} alt="" />
+      //         :
+      //         <BannerImage />}
+      //     </div> */}
+      //     <QueueAnim
+      //       type={isMobile ? 'bottom' : 'right'}
+      //       className={`${className}-text-wrapper`}
+      //       delay={300}
+      //     >
+      //       <img src="https://res.cloudinary.com/standard-crypto/image/upload/v1617483065/Vector_rpcjz8.svg" alt="Standard" style={{width: "70vw"}}/>
+      //       {/* <p className="main-info" key="p">Standard Crypto is developing decentralized financial services to give consumers the fastest, cheapest and most diverse suite of financial options in history.</p> */}
+      //     </QueueAnim>
+      //   </div>
+      // </Element>
+      <div className={className}>
+          {/* <div className={`${className}-img-wrapper`}>
             {isMobile ?
               <img width="100%" src={`${assets}/image/home/intro-landscape-3a409.svg`} alt="" />
               :
               <BannerImage />}
-          </div>
+          </div> */}
           <QueueAnim
             type={isMobile ? 'bottom' : 'right'}
-            className={`${className}-text-wrapper`}
             delay={300}
           >
-            <img src="https://res.cloudinary.com/standard-crypto/image/upload/v1617483065/Vector_rpcjz8.svg" alt="Standard" />
-            <p className="main-info" key="p">Standard Crypto is developing decentralized financial services to give consumers the fastest, cheapest and most diverse suite of financial options in history.</p>
+            <img src="https://res.cloudinary.com/standard-crypto/image/upload/v1617483065/Vector_rpcjz8.svg" alt="Standard" style={{width: "70vw", marginLeft: "15vw", marginRight: "15vw", marginTop: "40vh"}}/>
+            {/* <p className="main-info" key="p">Standard Crypto is developing decentralized financial services to give consumers the fastest, cheapest and most diverse suite of financial options in history.</p> */}
           </QueueAnim>
         </div>
-      </Element>
     );
   }
 }
