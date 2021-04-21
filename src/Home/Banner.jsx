@@ -60,7 +60,7 @@ class Banner extends React.PureComponent {
             marginLeft: '15vw',
             marginRight: '15vw',
             marginTop: '40vh',
-          }} />
+                    }} />
           {/* <p className="main-info" key="p">Standard Crypto is developing decentralized
           financial services to give consumers the fastest,
           cheapest and most diverse suite of financial options in history.</p> */}
