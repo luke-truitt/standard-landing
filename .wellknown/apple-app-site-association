@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "A8J8R277AF.com.standard.plaiddemo",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
