@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "A8J8R277AF.com.standard.plaiddemo",
+        "appIDs": ["A8J8R277AF.com.standard.plaiddemo", "A8J8R277AF.Standard.polygonplayground"],
         "components": [
           {
             "/": "/oauth-page.html"
